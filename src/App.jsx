@@ -9,8 +9,8 @@ const App = () => {
 
 	const [value, setValue] = useState(0);
 
-	const nextDisabled = value === USERS.length - 1 ? true : false;
-	const previousDisabled = value === 0 ? true : false;
+	const nextDisabled = value === USERS.length - 1;
+	const previousDisabled = value === 0;
 
 	return (
 		<div>
